@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="newTask.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Register here</h2>
+        </div>
+        <form action="./thanku.html" id="form" >
+            <div class="feild">
+                <label>First name</label>
+                <input type="text" placeholder="fname" id="fname" >
+                <i class="fa-solid fa-circle-check success"></i>
+                <i class="fa-solid fa-circle-exclamation error"></i>
+                <small>message</small>
+            </div>
+            <div class="feild">
+                <label>Last name</label>
+                <input type="text" placeholder="lname" id="lname" >
+                <i class="fa-solid fa-circle-check success"></i>
+                <i class="fa-solid fa-circle-exclamation error"></i>
+                <small>message</small>
+            </div>
+            <div class="feild">
+                <label>Email Id</label>
+                <input type="email" placeholder="abc1@gmail.com" id="email" >
+                <i class="fa-solid fa-circle-check success"></i>
+                <i class="fa-solid fa-circle-exclamation error"></i>
+                <small>message</small>
+            </div>
+            <div class="feild">
+                <label>Mobile no.</label>
+                <input type="number" placeholder="phone number" id="phone" >
+                <i class="fa-solid fa-circle-check success"></i>
+                <i class="fa-solid fa-circle-exclamation error"></i>
+                <small>message</small>
+            </div>
+            <div class="feild">
+                <label>Password</label>
+                <input type="password" placeholder="password" id="password" >
+                <i class="fa-solid fa-circle-check success"></i>
+                <i class="fa-solid fa-circle-exclamation error"></i>
+                <small>message</small>
+            </div>
+            <div class="feild">
+                <label>Confirm Password</label>
+                <input type="password" placeholder="confirm password" id="cpassword" >
+                <i class="fa-solid fa-circle-check success"></i>
+                <i class="fa-solid fa-circle-exclamation error"></i>
+                <small>message</small>
+            </div>
+            <div class="feild">
+                <input type="checkbox" id="tc" class="terms" >
+                <label>I agree to the terms and conditions</label>
+                <small>message</small>
+            </div>
+            <div>
+                <input type="submit" class="button">
+            </div>
+        </form>
+    </div>
+    
+    <script src="./newTask.js"></script>
+
+</body>
+
+</html>
